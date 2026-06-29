@@ -1,0 +1,37 @@
+name: wallscape
+description: "A stunning, modern wallpaper application featuring infinite scrolling, high-resolution imagery, and beautiful curated themes to personalize your device."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.4.1
+  google_fonts: ^8.1.0
+  http: ^1.6.0
+  dio: ^5.9.2
+  gal: ^2.3.2
+  async_wallpaper: ^3.1.0
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "download.png"
+  min_sdk_android: 21
